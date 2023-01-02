@@ -1,0 +1,40 @@
+.main-content {
+  overflow: hidden;
+}
+.main-aside {
+  overflow: hidden;
+}
+.main-content h1 {
+  text-align: center;
+}
+.main-aside h1 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.main-content p {
+  margin: 10px 20px;
+}
+.main-aside h1 {
+  text-align: center;
+}
+#input-holder {
+  display: flex;
+  margin-bottom: 10px;
+}
+#feed-back-form {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(206, 206, 206, 0.677);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#drop-options {
+  margin-bottom: 10px;
+}
+#check-boxes {
+  margin-bottom: 10px;
+}
+#text-area {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,47 @@
+.main-content {
+  grid-column: 6/9;
+  overflow: hidden;
+}
+.main-aside {
+  overflow: hidden;
+}
+.main-content h1 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+header .image-header {
+  background-image: url(../images/Trackmania-head-img.png);
+}
+.images {
+  width: fit-content;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.images .image-item {
+  margin: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+.image-item img {
+  width: 120px;
+  height: auto;
+  border: 2px outset black;
+  border-radius: 20px;
+  background-color: rgba(6, 217, 157, 0.727);
+}
+.image-item img:hover {
+  background-color: rgba(6, 217, 157, 0.984);
+}
+.image-item p {
+  color: rgba(105, 105, 105, 0.926);
+  text-align: center;
+}
+.main-aside h1 {
+  text-align: center;
+}
+.main-aside p {
+  font-size: 0.9rem;
+}

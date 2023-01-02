@@ -1,0 +1,53 @@
+.main-content {
+  overflow: hidden;
+}
+.main-aside {
+  overflow: hidden;
+}
+.main-content h1 {
+  text-align: center;
+}
+.main-aside h1 {
+  text-align: center;
+}
+.main-aside P {
+  font-size: 0.9rem;
+}
+.main-content p {
+  margin-bottom: 10px;
+}
+header .image-header {
+  background-image: url(../images/Trackmania-head-img.png);
+}
+.vid {
+  width: 22rem;
+}
+.content-holder p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: rgba(105, 105, 105, 0.926);
+}
+.video-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-holder {
+  display: flex;
+  justify-content: center;
+}
+.main-aside h1 {
+  font-size: 1.3rem;
+}
+video,
+iframe {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+@media (max-width: 830px) {
+  .vid {
+    width: 19rem;
+    height: auto;
+  }
+}

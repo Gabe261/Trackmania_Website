@@ -1,0 +1,43 @@
+.main-content h1 {
+  text-align: center;
+}
+.main-content hr {
+  color: rgba(105, 105, 105, 0.573);
+}
+.main-content p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+.main-content {
+  overflow: hidden;
+}
+.main-aside {
+  overflow: hidden;
+}
+.main-aside h1 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.main-aside p {
+  margin: 10px 0;
+  font-size: 0.9rem;
+}
+.aside-links {
+  border: 1px solid black;
+  text-align: center;
+}
+.aside-links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.aside-links a:hover {
+  color: rgb(18, 147, 78);
+}
+.games-list {
+  text-align: center;
+}
+@media (max-width: 950px) {
+  .games-list {
+    font-size: 0.8rem;
+  }
+}

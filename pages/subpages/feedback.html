@@ -1,0 +1,202 @@
+<!-- Gabriel Siewert 8832384 gsiewert2384@conestogac.on -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="../../styles/feedback.css" />
+    <title>Trackmania Info</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="image-header"></div>
+
+        <nav class="header-nav">
+          <div class="drop-home"><a href="../index.html">Home</a></div>
+          <div class="dropdown">
+            <a href="#">Road Textures</a>
+            <ul>
+              <li><a href="./images.html">Images</a></li>
+              <li><a href="./video.html">Video</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a href="#">Feedback</a>
+            <ul>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="main-container">
+        <div class="main-nav">
+          <h1>Navigation</h1>
+          <a href="../index.html">
+            <div class="nav-item">
+              <h2>Home</h2>
+              <div class="thumb">
+                <img
+                  src="../../thumbnails/Tumbnail-Home.png"
+                  alt="Trackmania Exchange"
+                />
+                <h3>Trackmania logo over race</h3>
+              </div>
+            </div>
+          </a>
+          <a href="./images.html">
+            <div class="nav-item">
+              <h2>Images</h2>
+              <div class="thumb">
+                <img
+                  src="../../thumbnails/Thumbnail-Images.png"
+                  alt="Trackmania Exchange"
+                />
+                <h3>Trackmania multiplayer race</h3>
+              </div>
+            </div>
+          </a>
+          <a href="./video.html">
+            <div class="nav-item">
+              <h2>Video</h2>
+              <div class="thumb">
+                <img
+                  src="../../thumbnails/Thumbnail-Video.png"
+                  alt="Trackmania Exchange"
+                />
+                <h3>Trackmania singleplayer race</h3>
+              </div>
+            </div>
+          </a>
+          <a href="./feedback.html">
+            <div class="nav-item">
+              <h2>FB</h2>
+              <div class="thumb">
+                <img
+                  src="../../thumbnails/Thumbnail-Feedback.png"
+                  alt="Trackmania Exchange"
+                />
+                <h3>Trackmania race on ice</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="main-content">
+          <h1>Feedback</h1>
+          <p>
+            Use this form to give the site feedback. Please enter your name,
+            email. Select the type of feedback. Then select which boxes apply.
+            Leave any other feedback in the text area below
+          </p>
+          <form id="feed-back-form">
+            <div id="input-holder">
+              <div>
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  class="u-full-width"
+                  tabindex="1"
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  class="u-full-width"
+                  tabindex="2"
+                />
+              </div>
+            </div>
+            <div id="drop-options">
+              <label for="feed-type">Feedback type</label>
+
+              <input
+                id="feed-type"
+                name="feed-type"
+                list="feed-types"
+                class="form-control mb-3"
+                tabindex="3"
+              />
+
+              <datalist id="feed-types">
+                <option value="Constructive"></option>
+                <option value="Positive"></option>
+                <option value="Negative"></option>
+                <option value="Supportive"></option>
+              </datalist>
+            </div>
+            <div id="check-boxes">
+              <input type="checkbox" id="one" value="Pos" tabindex="4" />
+              <label for="one">I liked this website</label> <br />
+              <input type="checkbox" id="tw0" value="Pos" tabindex="5" />
+              <label for="two">I think this website needs improvment</label>
+              <br />
+              <input type="checkbox" id="three" value="Pos" tabindex="6" />
+              <label for="three"
+                >I think this website should stay the same</label
+              >
+              <br />
+              <input type="checkbox" id="four" value="Pos" tabindex="7" />
+              <label for="four">I didn't like this website</label> <br />
+            </div>
+            <div id="text-area">
+              <textarea
+                cols="50"
+                rows="7"
+                placeholder="Enter feedback here"
+                maxlength="100"
+                class="form-control"
+                tabindex="8"
+              ></textarea>
+            </div>
+            <input
+              type="reset"
+              value="Reset"
+              class="u-full-width"
+              tabindex="9"
+            />
+          </form>
+        </div>
+        <div class="main-aside">
+          <h1>Additional Feedback</h1>
+          <p>
+            Please use the following area to give some additional feedback about
+            this website. <br />
+            This website is:
+          </p>
+          <form id="aside-form">
+            <div id="check-boxes">
+              <input type="checkbox" id="one" value="Fun" tabindex="10" />
+              <label for="one">Fun to visit</label> <br />
+              <input type="checkbox" id="tw0" value="Des" tabindex="11" />
+              <label for="two">Well designed</label>
+              <br />
+              <input type="checkbox" id="three" value="Col" tabindex="12" />
+              <label for="three">Used good colors</label>
+              <br />
+              <input type="checkbox" id="four" value="Inf" tabindex="13" />
+              <label for="four">Very informative</label> <br />
+            </div>
+            <p>Will you visit this site again?</p>
+            <div id="radio-btns">
+              <input type="radio" id="rOne" value="y" tabindex="14" />
+              <label for="rOne"> - Yes</label>
+              <input type="radio" id="rTwo" value="y" tabindex="15" />
+              <label for="rTwo"> - No</label>
+            </div>
+          </form>
+        </div>
+        <div>
+          <video autoplay loop muted class="back-player">
+            <source src="../../media/trackmania-back.mp4" />
+          </video>
+        </div>
+      </main>
+      <footer><h2>Trackmania Info &copy; Gabriel Siewert</h2></footer>
+    </div>
+  </body>
+</html>
